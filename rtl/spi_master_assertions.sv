@@ -1,15 +1,13 @@
 // SPI Master Assertions
-module spi_master_assertions
-  import uvm_pkg::*;
-(
-  input  logic        clk,          // System Clock
-  input  logic        rst_n,        // Active Low Reset
-  input  logic        sclk,         // SPI Clock
-  input  logic        cs_n,         // Chip Select (Active Low)
-  input  logic        mosi,         // Master Out Slave In
-  input  logic [7:0]  tx_data,      // Data to transmit
-  input  logic        tx_valid,     // Transmit data valid
-  input  logic        tx_ready      // Ready to accept new data
+module spi_master_assertions (
+    input  logic        clk,          // System Clock
+    input  logic        rst_n,        // Active Low Reset
+    input  logic        sclk,         // SPI Clock
+    input  logic        cs_n,         // Chip Select (Active Low)
+    input  logic        mosi,         // Master Out Slave In
+    input  logic [7:0]  tx_data,      // Data to transmit
+    input  logic        tx_valid,     // Transmit data valid
+    input  logic        tx_ready      // Ready to accept new data
 );
 
   // Master Clock Generation Properties

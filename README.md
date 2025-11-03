@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SPI Protocol SystemVerilog Assertions (SVA)
 
 此專案提供了一套完整的SPI(Serial Peripheral Interface)協議的SystemVerilog斷言(SVA)驗證套件。這些斷言可用於驗證SPI介面的正確性和完整性。
@@ -68,3 +69,6 @@ spi_master_assertions master_assert (
 ## 授權
 
 MIT License
+=======
+# SPI-SVA
+>>>>>>> 26226e0e44d94231501b3f8047e165ffe395af09

@@ -1,4 +1,14 @@
 // SPI Monitor Assertions
+module spi_monitor_assertions (
+    input  logic        clk,           // System Clock
+    input  logic        rst_n,         // Active Low Reset
+    input  logic        sclk,          // SPI Clock
+    input  logic        cs_n,          // Chip Select (Active Low)
+    input  logic        mosi,          // Master Out Slave In
+    input  logic        miso,          // Master In Slave Out
+    input  logic [7:0]  captured_mosi, // Captured MOSI data
+    input  logic [7:0]  captured_miso  // Captured MISO data
+);r Assertions
 module spi_monitor_assertions
   import uvm_pkg::*;
 (
