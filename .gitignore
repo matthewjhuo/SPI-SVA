@@ -1,0 +1,36 @@
+# SPI SVA Project
+
+.gitignore文件用於排除不需要追蹤的文件。
+
+# 編譯輸出
+*.o
+*.out
+*.vdb
+*.vpd
+*.log
+*.history
+*.key
+*.diag
+*.vcd
+*.fsdb
+*.tmp
+
+# 模擬器生成文件
+simv*
+csrc/
+DVE*
+INCA_libs/
+ucli.key
+vc_hdrs.h
+novas.*
+
+# 編輯器臨時文件
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 系統文件
+.DS_Store
+Thumbs.db
